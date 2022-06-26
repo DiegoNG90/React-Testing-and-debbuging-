@@ -23,3 +23,9 @@ test('Title should contain "React" in this title', () => {
 });
 
 // Arrays
+
+const data2 = ['React Native', 'React'];
+
+test('The list of courses should contain "React" and "React native"', () => {
+  expect(data2).toEqual(expect.arrayContaining(['React Native', 'React']));
+});
