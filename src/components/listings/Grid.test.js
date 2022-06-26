@@ -29,3 +29,13 @@ const data2 = ['React Native', 'React'];
 test('The list of courses should contain "React" and "React native"', () => {
   expect(data2).toEqual(expect.arrayContaining(['React Native', 'React']));
 });
+
+// Objects
+
+test('The first course should have a property "title"', () => {
+  expect(data[0]).toHaveProperty('title');
+});
+
+test('The first course should have a property "views" and value of 31,266', () => {
+  expect(data[0]).toHaveProperty('views', '31,266');
+});
