@@ -15,7 +15,7 @@ exports[`App snapshot test 1`] = `
           className="brand-logo center"
           href="/"
         >
-          Courses
+          Courses list
         </a>
       </div>
     </nav>
